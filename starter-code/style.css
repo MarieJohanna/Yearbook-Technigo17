@@ -1,0 +1,62 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  background: #FFE5DC;
+  color: #fff;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  padding: 20px;
+  text-align: center;
+}
+
+.logo {
+  text-align: center;
+  display: inline-block;
+  width: 200px;
+  height: 200px;
+  border-radius: 100%;
+  background: #fff;
+}
+
+.logo img {
+  width: 140px;
+  margin-top: 55px;
+}
+
+.yearbook {
+  width: 100%;
+}
+
+.card-column {
+  width: 100%;
+}
+
+.card {
+  width: 25%;
+  float: left;
+}
+
+figure {
+  float: left;
+  padding: 10px 10px 20px 10px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 5px 5px rgba(168, 168, 168, 0.5);
+}
+
+img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+figcaption {
+  font-family: Rock Salt, cursive;
+  color: #696969;
+  text-align: center;
+  font-size: 60%;
+}
