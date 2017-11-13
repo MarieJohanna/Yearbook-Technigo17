@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 html {
   background: #FFE5DC;
   color: #fff;
@@ -29,9 +33,12 @@ header {
   display: -webkit-box; /* OLD - iOS 6-, Safari 3.1-6, BB7 */
   display: -ms-flexbox; /* TWEENER - IE 10 */
   display: -webkit-flex; /* NEW - Safari 6.1+. iOS 7.1+, BB10 */
-  width: 100%;
-  justify-content: center;
+  /*max-width: 1515px;*/
+  /*justify-content: center;*/
   flex-wrap: wrap;
+  width: 96%;
+  margin: 2%;
+  padding: 0;
 }
 
 figure {
@@ -41,9 +48,14 @@ figure {
   box-shadow: 5px 5px rgba(168, 168, 168, 0.5);
 }
 
-.card img {
-  width: 200px;
+.card {
+  width: 21%;
   border-radius: 10px;
+  margin: 2%;
+}
+
+.card img {
+  width: 100%;
 }
 
 figcaption {
@@ -53,8 +65,14 @@ figcaption {
   font-size: 60%;
 }
 
-@media (max-width: 500px) {
-  .card img {
+@media (max-width: 450px) {
+  .card {
     width: 100%;
+  }
+}
+
+@media (min-width: 600px) and (max-width: 1024px) {
+  .card {
+    width: 46%;
   }
 }
