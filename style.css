@@ -56,13 +56,14 @@ figure {
 
 .card img {
   width: 100%;
+  border-radius: 10px;
 }
 
 figcaption {
   font-family: Rock Salt, cursive;
   color: #696969;
   text-align: center;
-  font-size: 60%;
+  font-size: 150%;
 }
 
 @media (max-width: 450px) {
